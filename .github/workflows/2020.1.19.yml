@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: 2020.1.17.2
+name: 2020.1.19
 
 on:
   push:
@@ -139,13 +139,13 @@ jobs:
           CONFIG_PACKAGE_luci-app-arpbind=y #IP/MAC绑定
           CONFIG_PACKAGE_luci-app-attendedsysupgrade=y #固件更新升级相关
           CONFIG_PACKAGE_luci-app-autoreboot=y #支持计划重启
-          CONFIG_PACKAGE_luci-app-baidupcs-web=y 
-          CONFIG_PACKAGE_luci-app-docker=y 
+          # CONFIG_PACKAGE_luci-app-baidupcs-web=y 
+          # CONFIG_PACKAGE_luci-app-docker=y 
           CONFIG_PACKAGE_luci-app-firewall=y #添加防火墙
           CONFIG_PACKAGE_luci-app-frpc=y #内网穿透Frp
           CONFIG_PACKAGE_luci-app-hd-idle=y #硬盘休眠
           CONFIG_PACKAGE_luci-app-hnet #Homenet Status家庭网络控制协议
-          CONFIG_PACKAGE_luci-app-kodexplorer=y 
+          # CONFIG_PACKAGE_luci-app-kodexplorer=y 
           CONFIG_PACKAGE_luci-app-meshwizard #网络设置向导
           CONFIG_PACKAGE_luci-app-minidlna=y #完全兼容DLNA/UPnP-AV客户端的服务器软件
           CONFIG_PACKAGE_luci-app-mwan=y #MWAN负载均衡
@@ -153,7 +153,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-ntpc=y #NTP时间同步服务器
           CONFIG_PACKAGE_luci-app-nlbwmon #网络带宽监视器
           CONFIG_PACKAGE_luci-app-openvpn=y
-          CONFIG_PACKAGE_luci-app-openvpn-server=y
+          # CONFIG_PACKAGE_luci-app-openvpn-server=y
           CONFIG_PACKAGE_luci-app-pppoe-relay #PPPoE NAT穿透 点对点协议(PPP)
           CONFIG_PACKAGE_luci-app-qos #流量服务质量(QoS)流控
           CONFIG_PACKAGE_luci-app-qbittorrent=y
