@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: 2020.1.19.2
+name: 2020.1.20
 
 on:
   push:
